@@ -10,9 +10,9 @@ repository = "https://github.com/sidit77/glutin-tao"
 edition = "2021"
 
 [features]
-default = ["egl", "glx", "x11", "wayland", "wgl"]
+default = ["egl", "x11", "wayland", "wgl"]
 egl = ["glutin/egl"]
-glx = ["glutin/glx", "glutin/x11", "x11"]
+#glx = ["glutin/glx", "glutin/x11", "x11"]
 wgl = ["glutin/wgl"]
 x11 = ["glutin/x11"]
 wayland = ["glutin/wayland"]
